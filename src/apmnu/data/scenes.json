@@ -1,0 +1,978 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "topSafe": 160,
+  "maxDurationSec": 360,
+  "transitionFrames": 15,
+  "lineGapMs": 350,
+  "voice": {
+    "engine": "macos-say + praat",
+    "name": "Damayanti",
+    "rate": 210,
+    "male": {
+      "pitch": 120,
+      "formant": 0.86,
+      "range": 1.2
+    },
+    "targetRmsDb": -19
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "title": "Hook",
+      "component": "S01Hook",
+      "burnInCaptions": false,
+      "assets": [
+        "pengukuhan",
+        "logo"
+      ],
+      "padStartMs": 1500,
+      "padEndMs": 4200,
+      "display": {
+        "quote": "Ilmu yang tinggi akan semakin bermakna ketika dibumikan dengan ketulusan, kesederhanaan, dan semangat khidmah.",
+        "quoteBy": "Khofifah Indar Parawansa",
+        "orgName": "Asosiasi Profesor Muslimat Nahdlatul Ulama"
+      },
+      "lines": [
+        {
+          "id": "s01_l01",
+          "id_text": "Ilmu yang tinggi akan semakin bermakna ketika dibumikan.",
+          "id_parts": [
+            "Ilmu yang tinggi akan semakin bermakna ketika dibumikan."
+          ],
+          "en": [
+            "Knowledge gains meaning when it is grounded."
+          ],
+          "audio": "apmnu/vo/s01_l01.wav",
+          "durationMs": 3498
+        },
+        {
+          "id": "s01_l02",
+          "id_text": "Dari ruang kuliah, laboratorium, hingga ruang publik, para guru besar perempuan Nahdlatul Ulama kini melangkah bersama dalam satu barisan, untuk agama, untuk nusa, dan untuk bangsa.",
+          "id_parts": [
+            "Dari ruang kuliah, laboratorium, hingga ruang publik,",
+            "para guru besar perempuan Nahdlatul Ulama kini melangkah bersama dalam satu barisan,",
+            "untuk agama, untuk nusa, dan untuk bangsa."
+          ],
+          "en": [
+            "From lecture halls and laboratories to the public sphere,",
+            "the women professors of Nahdlatul Ulama now walk together—",
+            "for faith, for homeland, and for the nation."
+          ],
+          "audio": "apmnu/vo/s01_l02.wav",
+          "durationMs": 12179
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "title": "Siapa APMNU",
+      "component": "S02Who",
+      "assets": [
+        "rakornas-mnu",
+        "logo"
+      ],
+      "padStartMs": 900,
+      "padEndMs": 1800,
+      "display": {
+        "fullName": "Asosiasi Profesor Muslimat Nahdlatul Ulama",
+        "acronym": "APMNU",
+        "disciplines": [
+          {
+            "id": "agama",
+            "label": "Agama",
+            "en": "Religion"
+          },
+          {
+            "id": "sosial",
+            "label": "Sosial",
+            "en": "Social Sciences"
+          },
+          {
+            "id": "hukum",
+            "label": "Hukum",
+            "en": "Law"
+          },
+          {
+            "id": "ekonomi",
+            "label": "Ekonomi",
+            "en": "Economics"
+          },
+          {
+            "id": "kesehatan",
+            "label": "Kesehatan",
+            "en": "Health"
+          },
+          {
+            "id": "sains",
+            "label": "Sains & Teknologi",
+            "en": "Science & Technology"
+          }
+        ],
+        "family": "Bagian dari keluarga besar Muslimat NU",
+        "manhaj": "Ahlussunnah wal Jama'ah an-Nahdliyah",
+        "mission": "Mendarmabaktikan kepakaran demi kemajuan agama, nusa, dan bangsa",
+        "tagline": "Wadah intelektual & profesional guru besar perempuan Nahdlatul Ulama"
+      },
+      "lines": [
+        {
+          "id": "s02_l01",
+          "id_text": "Inilah Asosiasi Profesor Muslimat Nahdlatul Ulama, atau APMNU.",
+          "id_parts": [
+            "Inilah Asosiasi Profesor Muslimat Nahdlatul Ulama, atau APMNU."
+          ],
+          "en": [
+            "This is the Association of Muslimat NU Professors — APMNU."
+          ],
+          "audio": "apmnu/vo/s02_l01.wav",
+          "durationMs": 4987
+        },
+        {
+          "id": "s02_l02",
+          "id_text": "Sebuah wadah intelektual dan profesional yang menghimpun para guru besar perempuan berlatar belakang Nahdlatul Ulama.",
+          "id_parts": [
+            "Sebuah wadah intelektual dan profesional",
+            "yang menghimpun para guru besar perempuan berlatar belakang Nahdlatul Ulama."
+          ],
+          "en": [
+            "An intellectual and professional home for women professors",
+            "from the Nahdlatul Ulama community."
+          ],
+          "audio": "apmnu/vo/s02_l02.wav",
+          "durationMs": 7029
+        },
+        {
+          "id": "s02_l03",
+          "id_text": "Mereka datang dari beragam disiplin ilmu: agama, sosial, hukum, ekonomi, kesehatan, hingga sains dan teknologi.",
+          "id_parts": [
+            "Mereka datang dari beragam disiplin ilmu: agama, sosial, hukum, ekonomi,",
+            "kesehatan, hingga sains dan teknologi."
+          ],
+          "en": [
+            "They span religion, social sciences, law, economics,",
+            "health, science and technology."
+          ],
+          "audio": "apmnu/vo/s02_l03.wav",
+          "durationMs": 8329
+        },
+        {
+          "id": "s02_l04",
+          "id_text": "Sebagai bagian dari keluarga besar Muslimat NU, APMNU berkomitmen mendarmabaktikan kepakaran demi kemajuan agama, nusa, dan bangsa, dalam bingkai Islam Ahlussunnah wal Jama'ah an-Nahdliyah.",
+          "id_parts": [
+            "Sebagai bagian dari keluarga besar Muslimat NU,",
+            "APMNU berkomitmen mendarmabaktikan kepakaran demi kemajuan agama, nusa, dan bangsa,",
+            "dalam bingkai Islam Ahlussunnah wal Jama'ah an-Nahdliyah."
+          ],
+          "tts": "Sebagai bagian dari keluarga besar Muslimat En U, A Pe Em En U berkomitmen mendarmabaktikan kepakaran demi kemajuan agama, nusa, dan bangsa, dalam bingkai Islam Ahlussunnah wal Jamaah an-Nahdliyah.",
+          "en": [
+            "As part of the Muslimat NU family,",
+            "APMNU dedicates its expertise to faith, homeland, and nation,",
+            "within the framework of Ahlussunnah wal Jama'ah an-Nahdliyah."
+          ],
+          "audio": "apmnu/vo/s02_l04.wav",
+          "durationMs": 13107
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "title": "Sejarah",
+      "component": "S03History",
+      "assets": [
+        "khofifah",
+        "pengukuhan",
+        "rakornas-mnu"
+      ],
+      "padStartMs": 1000,
+      "padEndMs": 1800,
+      "verify": "Lokasi Rakornas berbeda antar-sumber (BPSDM Jatim vs Islamic Center); tanggal Mukernas Samarinda tidak ditemukan. Narasi tidak menyebut venue.",
+      "display": {
+        "milestones": [
+          {
+            "title": "Mukernas Muslimat NU",
+            "place": "Samarinda",
+            "note": "Gagasan APMNU lahir"
+          },
+          {
+            "title": "Rakornas APMNU",
+            "place": "Surabaya · Februari 2026",
+            "note": "Pembahasan PD/PRT"
+          },
+          {
+            "title": "Pengukuhan Pengurus",
+            "place": "Surabaya · Februari 2026",
+            "note": "Disaksikan Menteri PPPA"
+          }
+        ],
+        "khofifahName": "Dr. (H.C.) Dra. Hj. Khofifah Indar Parawansa, M.Si.",
+        "khofifahRole": "Ketua Umum Dewan Pembina PP Muslimat NU",
+        "khofifahRoleEn": "Chair of the Advisory Board, Muslimat NU"
+      },
+      "lines": [
+        {
+          "id": "s03_l01",
+          "id_text": "Gagasan APMNU lahir dari Musyawarah Kerja Nasional Muslimat NU di Samarinda, ketika Ibu Khofifah Indar Parawansa mencermati besarnya potensi profesor perempuan di lingkungan Muslimat NU.",
+          "id_parts": [
+            "Gagasan APMNU lahir dari Musyawarah Kerja Nasional Muslimat NU di Samarinda,",
+            "ketika Ibu Khofifah Indar Parawansa mencermati besarnya potensi profesor perempuan di lingkungan Muslimat NU."
+          ],
+          "en": [
+            "The idea for APMNU was born at the Muslimat NU National Working Meeting in Samarinda,",
+            "when Khofifah Indar Parawansa saw the great potential of Muslimat NU's women professors."
+          ],
+          "audio": "apmnu/vo/s03_l01.wav",
+          "durationMs": 12798
+        },
+        {
+          "id": "s03_l02",
+          "id_text": "Gagasan itu segera diwujudkan.",
+          "id_parts": [
+            "Gagasan itu segera diwujudkan."
+          ],
+          "en": [
+            "The idea quickly took shape."
+          ],
+          "audio": "apmnu/vo/s03_l02.wav",
+          "durationMs": 2123
+        },
+        {
+          "id": "s03_l03",
+          "id_text": "Pada Februari 2026 di Surabaya, Rapat Koordinasi Nasional APMNU digelar, dan Peraturan Dasar serta Peraturan Rumah Tangga dibahas.",
+          "id_parts": [
+            "Pada Februari 2026 di Surabaya, Rapat Koordinasi Nasional APMNU digelar,",
+            "dan Peraturan Dasar serta Peraturan Rumah Tangga dibahas."
+          ],
+          "tts": "Pada Februari dua ribu dua puluh enam di Surabaya, Rapat Koordinasi Nasional A Pe Em En U digelar, dan Peraturan Dasar serta Peraturan Rumah Tangga dibahas.",
+          "en": [
+            "In February 2026, APMNU held its National Coordination Meeting in Surabaya,",
+            "discussing its statutes and bylaws."
+          ],
+          "audio": "apmnu/vo/s03_l03.wav",
+          "durationMs": 9916
+        },
+        {
+          "id": "s03_l04",
+          "id_text": "Kepengurusan dikukuhkan langsung oleh Ketua Umum Dewan Pembina Muslimat NU, disaksikan Menteri Pemberdayaan Perempuan dan Perlindungan Anak.",
+          "id_parts": [
+            "Kepengurusan dikukuhkan langsung oleh Ketua Umum Dewan Pembina Muslimat NU,",
+            "disaksikan Menteri Pemberdayaan Perempuan dan Perlindungan Anak."
+          ],
+          "en": [
+            "Its board was inaugurated by the Chair of Muslimat NU's Advisory Board,",
+            "witnessed by the Minister of Women's Empowerment and Child Protection."
+          ],
+          "audio": "apmnu/vo/s03_l04.wav",
+          "durationMs": 8564
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "title": "Arah dan Nilai",
+      "component": "S04Values",
+      "assets": [],
+      "padStartMs": 900,
+      "padEndMs": 1800,
+      "verify": "Ganti pilar dengan teks visi-misi resmi APMNU setelah diterima dari sekretariat.",
+      "display": {
+        "headline": "Wadah pengembangan keilmuan berbasis nilai Ahlussunnah wal Jamaah",
+        "pillars": [
+          {
+            "id": "pendidikan",
+            "label": "Pendidikan",
+            "en": "Education"
+          },
+          {
+            "id": "riset",
+            "label": "Riset",
+            "en": "Research"
+          },
+          {
+            "id": "advokasi",
+            "label": "Advokasi Kebijakan",
+            "en": "Policy Advocacy"
+          },
+          {
+            "id": "pemberdayaan",
+            "label": "Pemberdayaan Masyarakat",
+            "en": "Community Empowerment"
+          }
+        ],
+        "network": "Jejaring nasional & internasional",
+        "waqf": "Wakaf Produktif",
+        "waqfEn": "Productive Waqf"
+      },
+      "lines": [
+        {
+          "id": "s04_l01",
+          "id_text": "APMNU meneguhkan diri sebagai wadah pengembangan keilmuan berbasis nilai Ahlussunnah wal Jamaah.",
+          "id_parts": [
+            "APMNU meneguhkan diri sebagai wadah pengembangan keilmuan",
+            "berbasis nilai Ahlussunnah wal Jamaah."
+          ],
+          "en": [
+            "APMNU stands as a home for scholarship",
+            "rooted in Ahlussunnah wal Jamaah values."
+          ],
+          "audio": "apmnu/vo/s04_l01.wav",
+          "durationMs": 6437
+        },
+        {
+          "id": "s04_l02",
+          "id_text": "Arahnya jelas: pendidikan, riset, advokasi kebijakan, dan pemberdayaan masyarakat, diperkuat jejaring nasional dan internasional.",
+          "id_parts": [
+            "Arahnya jelas: pendidikan, riset,",
+            "advokasi kebijakan, dan pemberdayaan masyarakat,",
+            "diperkuat jejaring nasional dan internasional."
+          ],
+          "en": [
+            "Its direction is clear: education, research,",
+            "policy advocacy, and community empowerment,",
+            "backed by national and international networks."
+          ],
+          "audio": "apmnu/vo/s04_l02.wav",
+          "durationMs": 8984
+        },
+        {
+          "id": "s04_l03",
+          "id_text": "Ke depan, kelembagaan ditopang wakaf produktif, agar setiap gagasan tidak berhenti di menara gading, tetapi tumbuh menjadi kemaslahatan yang nyata.",
+          "id_parts": [
+            "Ke depan, kelembagaan ditopang wakaf produktif,",
+            "agar setiap gagasan tidak berhenti di menara gading, tetapi tumbuh menjadi kemaslahatan yang nyata."
+          ],
+          "en": [
+            "Going forward, productive waqf will sustain the institution,",
+            "so ideas don't stay in the ivory tower but grow into real public good."
+          ],
+          "audio": "apmnu/vo/s04_l03.wav",
+          "durationMs": 9468
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "title": "Kepemimpinan",
+      "component": "S05Leadership",
+      "assets": [
+        "amany",
+        "khofifah"
+      ],
+      "padStartMs": 900,
+      "padEndMs": 2200,
+      "verify": "Status Prof. Amany sebagai guru besar aktif UIN Jakarta per 2026 perlu dikonfirmasi.",
+      "display": {
+        "amanyName": "Prof. Dr. Hj. Amany Lubis, Lc., M.A.",
+        "amanyRole": "Ketua Umum APMNU",
+        "amanyRoleEn": "Chair of APMNU",
+        "amanyNote": "Rektor perempuan pertama UIN Syarif Hidayatullah Jakarta (2019–2023)",
+        "boardCount": 63,
+        "boardLabel": "pengurus aktif",
+        "boardLabelEn": "active board members",
+        "provincesLabel": "Perwakilan di hampir seluruh provinsi",
+        "khofifahName": "Dr. (H.C.) Dra. Hj. Khofifah Indar Parawansa, M.Si.",
+        "khofifahRole": "Ketua Dewan Pembina Muslimat NU"
+      },
+      "lines": [
+        {
+          "id": "s05_l01",
+          "id_text": "Organisasi ini dipimpin oleh Prof. Dr. Amany Lubis, guru besar UIN Syarif Hidayatullah Jakarta, yang pernah tercatat sebagai rektor perempuan pertama di kampus tersebut.",
+          "id_parts": [
+            "Organisasi ini dipimpin oleh Prof. Dr. Amany Lubis, guru besar UIN Syarif Hidayatullah Jakarta,",
+            "yang pernah tercatat sebagai rektor perempuan pertama di kampus tersebut."
+          ],
+          "tts": "Organisasi ini dipimpin oleh Profesor Doktor Amany Lubis, guru besar U I N Syarif Hidayatullah Jakarta, yang pernah tercatat sebagai rektor perempuan pertama di kampus tersebut.",
+          "en": [
+            "APMNU is led by Prof. Dr. Amany Lubis of UIN Syarif Hidayatullah Jakarta,",
+            "the first woman to serve as its rector."
+          ],
+          "audio": "apmnu/vo/s05_l01.wav",
+          "durationMs": 11384
+        },
+        {
+          "id": "s05_l02",
+          "id_text": "Bersama lebih dari enam puluh pengurus aktif dan perwakilan di hampir seluruh provinsi, APMNU bergerak di bawah pembinaan Ibu Khofifah Indar Parawansa, Ketua Dewan Pembina Muslimat NU.",
+          "id_parts": [
+            "Bersama lebih dari enam puluh pengurus aktif dan perwakilan di hampir seluruh provinsi,",
+            "APMNU bergerak di bawah pembinaan Ibu Khofifah Indar Parawansa,",
+            "Ketua Dewan Pembina Muslimat NU."
+          ],
+          "en": [
+            "With over sixty active board members and representatives in nearly every province,",
+            "APMNU works under the guidance of Khofifah Indar Parawansa,",
+            "Chair of Muslimat NU's Advisory Board."
+          ],
+          "audio": "apmnu/vo/s05_l02.wav",
+          "durationMs": 12073
+        }
+      ]
+    },
+    {
+      "id": "s05b",
+      "title": "Rangkaian Webinar Nasional",
+      "component": "S05bWebinars",
+      "assets": [
+        "webinar-kartini",
+        "webinar-hardiknas",
+        "webinar-brin"
+      ],
+      "padStartMs": 900,
+      "padEndMs": 1800,
+      "display": {
+        "eyebrow": "Rangkaian Webinar Nasional",
+        "headline": "Forum keilmuan daring APMNU",
+        "period": "April – Mei 2026",
+        "webinars": [
+          {
+            "asset": "webinar-kartini",
+            "series": "Webinar Perdana APMNU",
+            "title": "Legacy R.A. Kartini untuk Peradaban Bangsa",
+            "date": "Selasa, 21 April 2026",
+            "mode": "Daring · Zoom Meeting",
+            "speakerLabel": "Pembicara Kunci",
+            "speaker": "Prof. Dr. Phil. Sahiron Syamsuddin, M.A.",
+            "role": "Direktur Diktis Kemenag RI",
+            "face": {
+              "asset": "webinar-kartini.jpg",
+              "w": 1080,
+              "h": 1350,
+              "cx": 882,
+              "cy": 640,
+              "r": 88
+            }
+          },
+          {
+            "asset": "webinar-hardiknas",
+            "series": "Webinar Hardiknas",
+            "title": "Pendidikan Inklusi & Ramah Anak",
+            "date": "Sabtu, 2 Mei 2026",
+            "mode": "Daring · Zoom Meeting",
+            "speakerLabel": "Pembicara Kunci",
+            "speaker": "Prof. Dr. Abdul Mu'ti, M.Ed.",
+            "role": "Menteri Pendidikan Dasar dan Menengah Republik Indonesia",
+            "face": {
+              "asset": "webinar-hardiknas.jpg",
+              "w": 1280,
+              "h": 720,
+              "cx": 1170,
+              "cy": 238,
+              "r": 78
+            }
+          },
+          {
+            "asset": "webinar-brin",
+            "series": "Webinar Nasional",
+            "title": "Kebangkitan Riset Perempuan Indonesia",
+            "date": "Rabu, 20 Mei 2026",
+            "mode": "Daring · Zoom Meeting",
+            "speakerLabel": "Pembicara Kunci",
+            "speaker": "Prof. Arif Satria",
+            "role": "Kepala Badan Riset dan Inovasi Nasional (BRIN) Republik Indonesia",
+            "face": {
+              "asset": "webinar-brin.jpg",
+              "w": 1222,
+              "h": 1280,
+              "cx": 310,
+              "cy": 645,
+              "r": 80
+            }
+          }
+        ]
+      },
+      "lines": [
+        {
+          "id": "s05b_l01",
+          "id_text": "Sebelum Muktamar, APMNU menggelar rangkaian webinar nasional.",
+          "id_parts": [
+            "Sebelum Muktamar, APMNU menggelar rangkaian webinar nasional."
+          ],
+          "tts": "Sebelum Muktamar, A Pe Em En U menggelar rangkaian webinar nasional.",
+          "en": [
+            "Before the Congress, APMNU held a series of national webinars."
+          ],
+          "audio": "apmnu/vo/s05b_l01.wav",
+          "durationMs": 4277
+        },
+        {
+          "id": "s05b_l02",
+          "id_text": "Webinar perdana, Legacy R.A. Kartini untuk Peradaban Bangsa, digelar secara daring pada 21 April 2026, dan diisi langsung oleh Direktur Diktis Kementerian Agama Republik Indonesia, Prof. Dr. Phil. Sahiron Syamsuddin.",
+          "id_parts": [
+            "Webinar perdana, Legacy R.A. Kartini untuk Peradaban Bangsa,",
+            "digelar secara daring pada 21 April 2026,",
+            "dan diisi langsung oleh Direktur Diktis Kementerian Agama Republik Indonesia, Prof. Dr. Phil. Sahiron Syamsuddin."
+          ],
+          "tts": "Webinar perdana, Legasi, Er A Kartini untuk Peradaban Bangsa, digelar secara daring pada dua puluh satu April dua ribu dua puluh enam, dan diisi langsung oleh Direktur Diktis Kementerian Agama Republik Indonesia, Profesor Doktor Fil Sahiron Syamsuddin.",
+          "en": [
+            "The first webinar, 'R.A. Kartini's Legacy for the Nation's Civilization,'",
+            "was held online on 21 April 2026,",
+            "presented by Prof. Dr. Phil. Sahiron Syamsuddin, Director of Diktis at Indonesia's Ministry of Religious Affairs."
+          ],
+          "audio": "apmnu/vo/s05b_l02.wav",
+          "durationMs": 16391
+        },
+        {
+          "id": "s05b_l03",
+          "id_text": "Pada 2 Mei 2026, webinar Pendidikan Inklusi dan Ramah Anak diisi langsung oleh Prof. Dr. Abdul Mu'ti, Menteri Pendidikan Dasar dan Menengah Republik Indonesia.",
+          "id_parts": [
+            "Pada 2 Mei 2026, webinar Pendidikan Inklusi dan Ramah Anak",
+            "diisi langsung oleh Prof. Dr. Abdul Mu'ti,",
+            "Menteri Pendidikan Dasar dan Menengah Republik Indonesia."
+          ],
+          "tts": "Pada dua Mei dua ribu dua puluh enam, webinar Pendidikan Inklusi dan Ramah Anak diisi langsung oleh Profesor Doktor Abdul Mukti, Menteri Pendidikan Dasar dan Menengah Republik Indonesia.",
+          "en": [
+            "On 2 May 2026, the webinar 'Inclusive and Child-Friendly Education'",
+            "was presented by Prof. Dr. Abdul Mu'ti,",
+            "Indonesia's Minister of Primary and Secondary Education."
+          ],
+          "audio": "apmnu/vo/s05b_l03.wav",
+          "durationMs": 11728
+        },
+        {
+          "id": "s05b_l04",
+          "id_text": "Kemudian pada 20 Mei 2026, webinar Kebangkitan Riset Perempuan Indonesia dihadiri oleh Prof. Arif Satria, Kepala Badan Riset dan Inovasi Nasional Republik Indonesia.",
+          "id_parts": [
+            "Kemudian pada 20 Mei 2026, webinar Kebangkitan Riset Perempuan Indonesia",
+            "dihadiri oleh Prof. Arif Satria,",
+            "Kepala Badan Riset dan Inovasi Nasional Republik Indonesia."
+          ],
+          "tts": "Kemudian pada dua puluh Mei dua ribu dua puluh enam, webinar Kebangkitan Riset Perempuan Indonesia dihadiri oleh Profesor Arif Satria, Kepala Badan Riset dan Inovasi Nasional Republik Indonesia.",
+          "en": [
+            "Then on 20 May 2026, the webinar 'The Rise of Women Researchers in Indonesia'",
+            "was attended by Prof. Arif Satria,",
+            "Head of Indonesia's National Research and Innovation Agency (BRIN)."
+          ],
+          "audio": "apmnu/vo/s05b_l04.wav",
+          "durationMs": 12485
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "title": "Jombang: Seminar dan Tiga Karya",
+      "component": "S06Jombang",
+      "assets": [
+        "poster-seminar",
+        "launch-buku",
+        "launch-website",
+        "launch-jurnal",
+        "jurnal-cover",
+        "jurnal-logo"
+      ],
+      "padStartMs": 1200,
+      "padEndMs": 3000,
+      "verify": "Tanggal seminar 27 vs 28 Agustus berbeda antar-sumber; narasi memakai 'Agustus 2026'.",
+      "display": {
+        "chapter": "Muktamar ke-35 NU · Jombang · Agustus 2026",
+        "venue": "SMK Negeri 1 Jombang",
+        "theme": "Mewujudkan Generasi Cerdas Digital dan Lingkungan Nir Kekerasan Seksual",
+        "attendees": 82,
+        "attendeesLabel": "profesor hadir",
+        "attendeesLabelEn": "professors attended",
+        "regions": [
+          "Sumatera",
+          "Kalimantan",
+          "Sulawesi",
+          "Jawa",
+          "NTB"
+        ],
+        "topics": [
+          "Pengasuhan positif",
+          "AI yang bijak",
+          "Pencegahan kekerasan di sekolah"
+        ],
+        "products": [
+          {
+            "id": "buku",
+            "kind": "Buku",
+            "title": "Muslimat NU Menjawab Perubahan Zaman",
+            "asset": "launch-buku"
+          },
+          {
+            "id": "website",
+            "kind": "Website",
+            "title": "apmnu.org",
+            "asset": "launch-website"
+          },
+          {
+            "id": "jurnal",
+            "kind": "Jurnal",
+            "title": "Journal of Muslimat and Society",
+            "asset": "jurnal-cover"
+          }
+        ]
+      },
+      "lines": [
+        {
+          "id": "s06_l01",
+          "id_text": "Agustus 2026, Muktamar ke-35 Nahdlatul Ulama di Jombang menjadi panggung penting bagi APMNU.",
+          "id_parts": [
+            "Agustus 2026, Muktamar ke-35 Nahdlatul Ulama di Jombang",
+            "menjadi panggung penting bagi APMNU."
+          ],
+          "tts": "Agustus dua ribu dua puluh enam, Muktamar ke tiga puluh lima Nahdlatul Ulama di Jombang menjadi panggung penting bagi A Pe Em En U.",
+          "en": [
+            "August 2026: the 35th Nahdlatul Ulama Congress in Jombang",
+            "became a key stage for APMNU."
+          ],
+          "audio": "apmnu/vo/s06_l01.wav",
+          "durationMs": 8115
+        },
+        {
+          "id": "s06_l02",
+          "id_text": "Di SMK Negeri 1 Jombang, APMNU menggelar Seminar Nasional dan Bahtsul Masail bertema Mewujudkan Generasi Cerdas Digital dan Lingkungan Nir Kekerasan Seksual.",
+          "id_parts": [
+            "Di SMK Negeri 1 Jombang, APMNU menggelar Seminar Nasional dan Bahtsul Masail",
+            "bertema Mewujudkan Generasi Cerdas Digital dan Lingkungan Nir Kekerasan Seksual."
+          ],
+          "tts": "Di Es Em Ka Negeri Satu Jombang, A Pe Em En U menggelar Seminar Nasional dan Bahtsul Masail bertema, Mewujudkan Generasi Cerdas Digital dan Lingkungan Nir Kekerasan Seksual.",
+          "en": [
+            "At SMK Negeri 1 Jombang, APMNU held a National Seminar and Bahtsul Masail",
+            "on 'Building a Digitally Smart Generation and Environments Free from Sexual Violence.'"
+          ],
+          "audio": "apmnu/vo/s06_l02.wav",
+          "durationMs": 11049
+        },
+        {
+          "id": "s06_l03",
+          "id_text": "Delapan puluh dua profesor dari Sumatera, Kalimantan, Sulawesi, Jawa, hingga Nusa Tenggara Barat hadir.",
+          "id_parts": [
+            "Delapan puluh dua profesor dari Sumatera, Kalimantan,",
+            "Sulawesi, Jawa, hingga Nusa Tenggara Barat hadir."
+          ],
+          "en": [
+            "Eighty-two professors attended, from Sumatra, Kalimantan,",
+            "Sulawesi, Java and West Nusa Tenggara."
+          ],
+          "audio": "apmnu/vo/s06_l03.wav",
+          "durationMs": 7139
+        },
+        {
+          "id": "s06_l04",
+          "id_text": "Mereka membahas pengasuhan positif, pemanfaatan kecerdasan buatan secara bijak, dan pencegahan kekerasan di lembaga pendidikan.",
+          "id_parts": [
+            "Mereka membahas pengasuhan positif, pemanfaatan kecerdasan buatan secara bijak,",
+            "dan pencegahan kekerasan di lembaga pendidikan."
+          ],
+          "en": [
+            "They discussed positive parenting, wise use of AI,",
+            "and preventing violence in schools."
+          ],
+          "audio": "apmnu/vo/s06_l04.wav",
+          "durationMs": 8199
+        },
+        {
+          "id": "s06_l05",
+          "id_text": "Pada momentum yang sama, APMNU meluncurkan tiga karya: buku Muslimat NU Menjawab Perubahan Zaman, website resmi APMNU, dan Journal of Muslimat and Society.",
+          "id_parts": [
+            "Pada momentum yang sama, APMNU meluncurkan tiga karya:",
+            "buku Muslimat NU Menjawab Perubahan Zaman,",
+            "website resmi APMNU, dan Journal of Muslimat and Society."
+          ],
+          "tts": "Pada momentum yang sama, A Pe Em En U meluncurkan tiga karya: buku, Muslimat En U Menjawab Perubahan Zaman, website resmi A Pe Em En U, dan Journal of Muslimat and Society.",
+          "en": [
+            "At the same moment, APMNU launched three works:",
+            "the book 'Muslimat NU Responds to a Changing Era,'",
+            "APMNU's official website, and the Journal of Muslimat and Society."
+          ],
+          "audio": "apmnu/vo/s06_l05.wav",
+          "durationMs": 11802
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "title": "Kiprah Internasional: Mesir",
+      "component": "S07Egypt",
+      "assets": [
+        "poster-benchmark",
+        "kbri-kairo",
+        "pci-mesir",
+        "liga-universitas",
+        "suez"
+      ],
+      "padStartMs": 1000,
+      "padEndMs": 2200,
+      "display": {
+        "program": "Program Benchmarking Akademik · Oktober 2026",
+        "stops": [
+          {
+            "asset": "kbri-kairo",
+            "place": "KBRI Kairo",
+            "detail": "Kairo, Mesir",
+            "date": "15 Okt 2026",
+            "line": "s07_l03"
+          },
+          {
+            "asset": "pci-mesir",
+            "place": "Pelantikan PCI Muslimat NU Mesir",
+            "detail": "Al-Azhar, Kairo",
+            "date": "18 Okt 2026",
+            "line": "s07_l04"
+          },
+          {
+            "asset": "liga-universitas",
+            "place": "Islamic Universities League",
+            "detail": "Kairo, Mesir",
+            "date": "Oktober 2026",
+            "line": "s07_l04b",
+            "position": "50% 45%"
+          },
+          {
+            "asset": "suez",
+            "place": "Suez Canal University",
+            "detail": "Ismailiyah, Mesir",
+            "date": "18 Okt 2026",
+            "position": "50% 0%",
+            "line": "s07_l05"
+          }
+        ]
+      },
+      "lines": [
+        {
+          "id": "s07_l01",
+          "id_text": "Kiprah APMNU juga melintasi batas negara.",
+          "id_parts": [
+            "Kiprah APMNU juga melintasi batas negara."
+          ],
+          "en": [
+            "APMNU's work also crosses borders."
+          ],
+          "audio": "apmnu/vo/s07_l01.wav",
+          "durationMs": 3275
+        },
+        {
+          "id": "s07_l02",
+          "id_text": "Melalui Program Benchmarking Akademik pada Oktober 2026, delegasi APMNU bertolak ke Mesir.",
+          "id_parts": [
+            "Melalui Program Benchmarking Akademik pada Oktober 2026,",
+            "delegasi APMNU bertolak ke Mesir."
+          ],
+          "tts": "Melalui Program Benchmarking Akademik pada Oktober dua ribu dua puluh enam, delegasi A Pe Em En U bertolak ke Mesir.",
+          "en": [
+            "Through an Academic Benchmarking Program in October 2026,",
+            "a delegation travelled to Egypt."
+          ],
+          "audio": "apmnu/vo/s07_l02.wav",
+          "durationMs": 7273
+        },
+        {
+          "id": "s07_l03",
+          "id_text": "Di Kairo, delegasi bersilaturahmi ke Kedutaan Besar Republik Indonesia untuk memperkuat jejaring akademik Indonesia–Mesir.",
+          "id_parts": [
+            "Di Kairo, delegasi bersilaturahmi ke Kedutaan Besar Republik Indonesia",
+            "untuk memperkuat jejaring akademik Indonesia–Mesir."
+          ],
+          "tts": "Di Kairo, delegasi bersilaturahmi ke Kedutaan Besar Republik Indonesia untuk memperkuat jejaring akademik Indonesia dan Mesir.",
+          "en": [
+            "In Cairo, they visited the Indonesian Embassy",
+            "to strengthen Indonesia–Egypt academic ties."
+          ],
+          "audio": "apmnu/vo/s07_l03.wav",
+          "durationMs": 7920
+        },
+        {
+          "id": "s07_l04",
+          "id_text": "Delegasi juga menghadiri pelantikan Pengurus Cabang Istimewa Muslimat NU Mesir di Al-Azhar.",
+          "id_parts": [
+            "Delegasi juga menghadiri pelantikan",
+            "Pengurus Cabang Istimewa Muslimat NU Mesir di Al-Azhar."
+          ],
+          "en": [
+            "They also attended the inauguration of Muslimat NU's",
+            "Special Branch in Egypt at Al-Azhar."
+          ],
+          "audio": "apmnu/vo/s07_l04.wav",
+          "durationMs": 5920
+        },
+        {
+          "id": "s07_l04b",
+          "id_text": "Delegasi juga mengunjungi Liga Universitas Islam di Kairo, menjajaki kolaborasi dengan jejaring perguruan tinggi Islam dunia.",
+          "id_parts": [
+            "Delegasi juga mengunjungi Liga Universitas Islam di Kairo,",
+            "menjajaki kolaborasi dengan jejaring perguruan tinggi Islam dunia."
+          ],
+          "en": [
+            "They also visited the Islamic Universities League in Cairo,",
+            "exploring collaboration with the global network of Islamic universities."
+          ],
+          "audio": "apmnu/vo/s07_l04b.wav",
+          "durationMs": 7981
+        },
+        {
+          "id": "s07_l05",
+          "id_text": "Di Ismailiyah, delegasi diterima langsung oleh Rektor Suez Canal University untuk menjajaki kerja sama akademik.",
+          "id_parts": [
+            "Di Ismailiyah, delegasi diterima langsung oleh Rektor Suez Canal University",
+            "untuk menjajaki kerja sama akademik."
+          ],
+          "en": [
+            "In Ismailia, the delegation was received by the President of Suez Canal University",
+            "to explore academic cooperation."
+          ],
+          "audio": "apmnu/vo/s07_l05.wav",
+          "durationMs": 7240
+        }
+      ],
+      "verify": "Tanggal kunjungan Islamic Universities League belum dikonfirmasi; tampil sebagai \"Oktober 2026\"."
+    },
+    {
+      "id": "s08",
+      "title": "Capaian",
+      "component": "S08Achievements",
+      "assets": [
+        "pengukuhan",
+        "rakornas-mnu",
+        "kbri-kairo",
+        "pci-mesir",
+        "suez",
+        "launch-buku",
+        "launch-website",
+        "launch-jurnal",
+        "muri-1",
+        "muri-organisasi",
+        "muri-forum"
+      ],
+      "padStartMs": 900,
+      "padEndMs": 2200,
+      "verify": "Angka profesor berbeda antar-sumber (156 / 197 / 210). Video memakai angka direktori publik: 217 profesor, 82 program studi.",
+      "display": {
+        "stats": [
+          {
+            "value": 209,
+            "label": "profesor",
+            "en": "professors"
+          },
+          {
+            "value": 82,
+            "label": "program studi",
+            "en": "study programs"
+          },
+          {
+            "value": 2,
+            "label": "rekor MURI",
+            "en": "MURI records"
+          }
+        ],
+        "recordsNote": "Bersama Muslimat NU · HUT ke-80 · 11 April 2026",
+        "muri": {
+          "heading": "Dua Rekor MURI",
+          "photo": "muri-1",
+          "certs": [
+            {
+              "asset": "muri-organisasi",
+              "title": "Organisasi Kemasyarakatan dengan Anggota Profesor Perempuan Terbanyak",
+              "number": "Piagam MURI No. 12683/R.MURI/IV/2026"
+            },
+            {
+              "asset": "muri-forum",
+              "title": "Forum Nasional yang Melibatkan Profesor Perempuan dengan Disiplin Ilmu Terbanyak",
+              "number": "Piagam MURI No. 12684/R.MURI/IV/2026"
+            }
+          ]
+        }
+      },
+      "lines": [
+        {
+          "id": "s08_l01",
+          "id_text": "Jejaring ini terus tumbuh.",
+          "id_parts": [
+            "Jejaring ini terus tumbuh."
+          ],
+          "en": [
+            "This network keeps growing."
+          ],
+          "audio": "apmnu/vo/s08_l01.wav",
+          "durationMs": 1592
+        },
+        {
+          "id": "s08_l02",
+          "id_text": "Hampir dua ratus profesor kini tercatat dalam direktori APMNU, mewakili delapan puluh dua program studi.",
+          "id_parts": [
+            "Hampir dua ratus profesor kini tercatat dalam direktori APMNU,",
+            "mewakili delapan puluh dua program studi."
+          ],
+          "en": [
+            "Nearly two hundred professors are now listed in APMNU's directory,",
+            "across eighty-two study programs."
+          ],
+          "audio": "apmnu/vo/s08_l02.wav",
+          "durationMs": 7345
+        },
+        {
+          "id": "s08_l03",
+          "id_text": "Bersama Muslimat NU, para profesor ini juga mengukir dua rekor MURI.",
+          "id_parts": [
+            "Bersama Muslimat NU, para profesor ini juga mengukir dua rekor MURI."
+          ],
+          "tts": "Bersama Muslimat En U, para profesor ini juga mengukir dua rekor Muri.",
+          "en": [
+            "Together with Muslimat NU, they set two Indonesian MURI records:"
+          ],
+          "audio": "apmnu/vo/s08_l03.wav",
+          "durationMs": 4812
+        },
+        {
+          "id": "s08_l04",
+          "id_text": "Organisasi perempuan dengan profesor perempuan terbanyak, dan forum nasional dengan profesor perempuan lintas disiplin terbanyak.",
+          "id_parts": [
+            "Organisasi perempuan dengan profesor perempuan terbanyak,",
+            "dan forum nasional dengan profesor perempuan lintas disiplin terbanyak."
+          ],
+          "en": [
+            "the women's organization with the most women professors,",
+            "and the national forum with the most women professors across disciplines."
+          ],
+          "audio": "apmnu/vo/s08_l04.wav",
+          "durationMs": 7882
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "title": "Penutup dan Ajakan",
+      "component": "S09Closing",
+      "assets": [
+        "logo"
+      ],
+      "padStartMs": 1000,
+      "padEndMs": 4500,
+      "verify": "Slogan dikutip media (memox.co.id); konfirmasi ke APMNU.",
+      "display": {
+        "slogan": [
+          "berilmu",
+          "berdaya",
+          "bermanfaat"
+        ],
+        "sloganFull": "Untuk Muslimat NU yang berilmu, berdaya, dan terus memberi manfaat bagi umat, bangsa, dan peradaban."
+      },
+      "lines": [
+        {
+          "id": "s09_l01",
+          "id_text": "APMNU: untuk Muslimat NU yang berilmu, berdaya, dan terus memberi manfaat bagi umat, bangsa, dan peradaban.",
+          "id_parts": [
+            "APMNU: untuk Muslimat NU yang berilmu, berdaya, dan terus memberi manfaat",
+            "bagi umat, bangsa, dan peradaban."
+          ],
+          "en": [
+            "APMNU: for a Muslimat NU that is knowledgeable, empowered, and of service",
+            "to the community, the nation, and civilization."
+          ],
+          "audio": "apmnu/vo/s09_l01.wav",
+          "durationMs": 7916
+        },
+        {
+          "id": "s09_l02",
+          "id_text": "Bagi guru besar perempuan Nahdliyin, pintu khidmah selalu terbuka.",
+          "id_parts": [
+            "Bagi guru besar perempuan Nahdliyin, pintu khidmah selalu terbuka."
+          ],
+          "en": [
+            "For women professors of the Nahdliyin community, the door to service is open."
+          ],
+          "audio": "apmnu/vo/s09_l02.wav",
+          "durationMs": 4124
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+[
+  {
+    "id": "logo",
+    "url": "https://apmnu.org/logo-apmnu.jpeg",
+    "sourcePage": "apmnu.org",
+    "caption": "Official logo",
+    "date": null,
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s01",
+      "s02",
+      "s09"
+    ],
+    "file": "apmnu/assets/logo.jpg",
+    "width": 1280,
+    "height": 1246,
+    "bytes": 118809,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "pengukuhan",
+    "url": "https://cdn.apmnu.site/galeri/pengukuhan-2.jpeg",
+    "sourcePage": "apmnu.org (og:image)",
+    "caption": "Board inauguration",
+    "date": "2026-02",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s01",
+      "s03"
+    ],
+    "file": "apmnu/assets/pengukuhan.jpg",
+    "width": 1280,
+    "height": 853,
+    "bytes": 149833,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "khofifah",
+    "url": "https://apmnu.org/sambutan-khofifah.png",
+    "sourcePage": "apmnu.org",
+    "caption": "Chair of the Advisory Board",
+    "date": null,
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s03",
+      "s05"
+    ],
+    "file": "apmnu/assets/khofifah.png",
+    "width": 480,
+    "height": 480,
+    "bytes": 438521,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "amany",
+    "url": "https://cdn.apmnu.site/galeri/sambutan-prof-amany-2.jpeg",
+    "sourcePage": "apmnu.org",
+    "caption": "General Chair",
+    "date": null,
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s05"
+    ],
+    "file": "apmnu/assets/amany.jpg",
+    "width": 971,
+    "height": 1298,
+    "bytes": 50212,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "rakornas-mnu",
+    "url": "https://muslimatnu.or.id/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-07-at-11.57.36.jpeg",
+    "sourcePage": "muslimatnu.or.id (8 Feb 2026)",
+    "caption": "APMNU National Coordination Meeting",
+    "date": "2026-02-07",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s02",
+      "s03",
+      "s04"
+    ],
+    "file": "apmnu/assets/rakornas-mnu.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 181560,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "poster-seminar",
+    "url": "https://s3.apmnu.org/apmnu-storage/agenda/1787582021768-Screenshot%202026-08-24%20at%2021.31.14.png",
+    "sourcePage": "apmnu.org (agenda)",
+    "caption": "National Seminar poster",
+    "date": "2026-08",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/poster-seminar.png",
+    "width": 1206,
+    "height": 1122,
+    "bytes": 2398509,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "launch-website",
+    "url": "https://s3.apmnu.org/apmnu-storage/agenda/1787745208258-WhatsApp%20Image%202026-08-23%20at%207.01.13%20PM.jpeg",
+    "sourcePage": "apmnu.org (agenda)",
+    "caption": "Website launch",
+    "date": "2026-08-28",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/launch-website.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 235998,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "launch-buku",
+    "url": "https://s3.apmnu.org/apmnu-storage/agenda/1787745266506-WhatsApp%20Image%202026-08-23%20at%207.00.48%20PM.jpeg",
+    "sourcePage": "apmnu.org (agenda)",
+    "caption": "Book launch",
+    "date": "2026-08-28",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/launch-buku.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 206955,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "launch-jurnal",
+    "url": "https://s3.apmnu.org/apmnu-storage/agenda/1787745321127-WhatsApp%20Image%202026-08-25%20at%2010.38.51%20AM.jpeg",
+    "sourcePage": "apmnu.org (agenda)",
+    "caption": "Journal launch",
+    "date": "2026-08-28",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/launch-jurnal.jpg",
+    "width": 1278,
+    "height": 1600,
+    "bytes": 186640,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "jurnal-logo",
+    "url": "https://journal.apmnu.org/public/journals/1/pageHeaderLogoImage_en.png",
+    "sourcePage": "journal.apmnu.org",
+    "caption": "Journal logo",
+    "date": null,
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/jurnal-logo.png",
+    "width": 2024,
+    "height": 392,
+    "bytes": 695686,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "jurnal-cover",
+    "url": "https://journal.apmnu.org/public/journals/1/cover_issue_1_en.jpg",
+    "sourcePage": "journal.apmnu.org",
+    "caption": "Vol. 1 No. 1 cover",
+    "date": null,
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": "apmnu/assets/jurnal-cover.jpg",
+    "width": 646,
+    "height": 870,
+    "bytes": 301417,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "poster-benchmark",
+    "url": "https://s3.apmnu.org/apmnu-storage/agenda/1791036389773-Poster%20Benchmarking%20Akademik%20Mesir%20dan%20Arab%20Saudi.png",
+    "sourcePage": "apmnu.org (agenda)",
+    "caption": "Academic Benchmarking poster",
+    "date": "2026-10",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s07"
+    ],
+    "file": "apmnu/assets/poster-benchmark.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 2398864,
+    "lowres": true,
+    "status": "ok"
+  },
+  {
+    "id": "kbri-kairo",
+    "url": "https://s3.apmnu.org/apmnu-storage/post/image/fa9f870b-3ec8-4a99-901b-2c1a7ca81920/cover-fa9f870b-3ec8-4a99-901b-2c1a7ca81920.jpg?v=1792941053439",
+    "sourcePage": "apmnu.org (liputan)",
+    "caption": "Visit to the Indonesian Embassy in Cairo",
+    "date": "2026-10-15",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s07"
+    ],
+    "file": "apmnu/assets/kbri-kairo.jpg",
+    "width": 1600,
+    "height": 1055,
+    "bytes": 203520,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "pci-mesir",
+    "url": "https://s3.apmnu.org/apmnu-storage/post/image/221a99e2-d157-45fe-927d-1e9f1cc5c7bf/cover-221a99e2-d157-45fe-927d-1e9f1cc5c7bf.jpg?v=1792939958770",
+    "sourcePage": "apmnu.org (liputan)",
+    "caption": "PCI Muslimat NU Egypt inauguration",
+    "date": "2026-10-18",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s07"
+    ],
+    "file": "apmnu/assets/pci-mesir.jpg",
+    "width": 1600,
+    "height": 900,
+    "bytes": 223503,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "suez",
+    "url": "https://s3.apmnu.org/apmnu-storage/post/image/8793cdab-bf0d-4ba4-be1b-8a84801caf3e/cover-8793cdab-bf0d-4ba4-be1b-8a84801caf3e.jpg?v=1792938699240",
+    "sourcePage": "apmnu.org (liputan)",
+    "caption": "Suez Canal University visit",
+    "date": "2026-10-18",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s07",
+      "s08"
+    ],
+    "file": "apmnu/assets/suez.jpg",
+    "width": 1600,
+    "height": 900,
+    "bytes": 201818,
+    "lowres": false,
+    "status": "ok"
+  },
+  {
+    "id": "webinar-kartini",
+    "local": "bjombang/Legacy R.A. Kartini untuk Peradaban Bangsa.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "Webinar Perdana: Legacy R.A. Kartini untuk Peradaban Bangsa",
+    "date": "2026-04-21",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s05b"
+    ],
+    "file": "apmnu/assets/webinar-kartini.jpg",
+    "width": 1080,
+    "height": 1350,
+    "bytes": 202743,
+    "lowres": true,
+    "status": "ok (local)"
+  },
+  {
+    "id": "webinar-hardiknas",
+    "local": "bjombang/Pendidikan Inklusi dan Ramah Anak.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "Webinar Hardiknas: Pendidikan Inklusi & Ramah Anak",
+    "date": "2026-05-02",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s05b"
+    ],
+    "file": "apmnu/assets/webinar-hardiknas.jpg",
+    "width": 1280,
+    "height": 720,
+    "bytes": 120981,
+    "lowres": false,
+    "status": "ok (local)"
+  },
+  {
+    "id": "webinar-brin",
+    "local": "bjombang/Kebangkitan Periset perempuan Indonesia.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "Webinar: Kebangkitan Riset Perempuan Indonesia",
+    "date": "2026-05-20",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s05b"
+    ],
+    "file": "apmnu/assets/webinar-brin.jpg",
+    "width": 1222,
+    "height": 1280,
+    "bytes": 215316,
+    "lowres": true,
+    "status": "ok (local)"
+  },
+  {
+    "id": "liga-universitas",
+    "local": "bjombang/Mesir.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "Visit to the Islamic Universities League, Cairo",
+    "date": "2026-10",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s07"
+    ],
+    "file": "apmnu/assets/liga-universitas.jpg",
+    "width": 1280,
+    "height": 960,
+    "bytes": 168919,
+    "lowres": false,
+    "status": "ok (local)"
+  },
+  {
+    "id": "muri-1",
+    "local": "MURI/Muri1.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "Two MURI certificates presented to Muslimat NU",
+    "date": "2026-04-11",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s08"
+    ],
+    "file": "apmnu/assets/muri-1.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 355946,
+    "lowres": true,
+    "status": "ok (local)"
+  },
+  {
+    "id": "muri-organisasi",
+    "local": "MURI/Organisasi Kemasyarakatan dengan Anggota Profesor Perempuan Terbanyak.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "MURI certificate No. 12683/R.MURI/IV/2026",
+    "date": "2026-04-11",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s08"
+    ],
+    "file": "apmnu/assets/muri-organisasi.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 306635,
+    "lowres": true,
+    "status": "ok (local)"
+  },
+  {
+    "id": "muri-forum",
+    "local": "MURI/Forum Nasional yang Melibatkan Profesor Perempuan dengan Disiplin Ilmu Terbanyak.jpeg",
+    "sourcePage": "provided by APMNU",
+    "caption": "MURI certificate No. 12684/R.MURI/IV/2026",
+    "date": "2026-04-11",
+    "license": "APMNU permission required",
+    "sceneIds": [
+      "s08"
+    ],
+    "file": "apmnu/assets/muri-forum.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 296947,
+    "lowres": true,
+    "status": "ok (local)"
+  },
+  {
+    "id": "seminar-foto",
+    "url": "https://mediapetisi.net/wp-content/uploads/2026/08/IMG-20260828-WA0031.jpg",
+    "sourcePage": "mediapetisi.net",
+    "caption": "APMNU chair with seminar participants",
+    "date": "2026-08-28",
+    "license": "media permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": null,
+    "status": "skipped: awaiting media permission"
+  },
+  {
+    "id": "presscon",
+    "url": "https://storage.nu.or.id/storage/post/16_9/mid/whatsapp-image-2026-08-28-at-151056_1787913724.webp",
+    "sourcePage": "NU Online Jatim",
+    "caption": "Launch press conference (Foto: NOJ/RS)",
+    "date": "2026-08-28",
+    "license": "media permission required",
+    "sceneIds": [
+      "s06"
+    ],
+    "file": null,
+    "status": "skipped: awaiting media permission"
+  }
+]
